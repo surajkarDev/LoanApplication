@@ -1,0 +1,113 @@
+{
+  "userInfo": [
+    {
+      "id": "d7b7",
+      "username": "suraj",
+      "email": "suraj@farenexus.com",
+      "password": "1234567890",
+      "confirmPassword": "1234567890",
+      "status": true
+    },
+    {
+      "id": "0fae",
+      "username": "sanjib",
+      "email": "sanjib@farenexus.com",
+      "password": "1234567890",
+      "confirmPassword": "1234567890",
+      "status": false
+    },
+    {
+      "id": "9e58",
+      "username": "sanjib",
+      "email": "sanjib@gmail.com",
+      "password": "1234567890",
+      "confirmPassword": "1234567890",
+      "status": false
+    },
+    {
+      "id": "66a5",
+      "username": "sk",
+      "email": "sk@gmail.com",
+      "password": "1234567890",
+      "confirmPassword": "1234567890",
+      "status": false
+    }
+  ],
+  "loanDetails": [
+    {
+      "id": "d4b2",
+      "loanAmount": 5000,
+      "rateOfInterest": 6,
+      "loanTenure": "3 Months",
+      "monthlyEmi": 1683,
+      "totalInterest": 50.08,
+      "totalAmount": 5050,
+      "createdAt": "2025-11-17T11:43:26.229Z",
+      "userName": "suraj",
+      "userEmail": "suraj@farenexus.com",
+      "status": "active"
+    },
+    {
+      "id": "77b8",
+      "loanAmount": 823942,
+      "rateOfInterest": 8,
+      "loanTenure": "9 Months",
+      "monthlyEmi": 94628,
+      "totalInterest": 27708.04,
+      "totalAmount": 851650,
+      "createdAt": "2025-11-17T11:44:17.917Z",
+      "userName": "suraj",
+      "userEmail": "suraj@farenexus.com",
+      "status": "pending"
+    },
+    {
+      "id": "7a77",
+      "loanAmount": 872782,
+      "rateOfInterest": 9,
+      "loanTenure": "12 Months",
+      "monthlyEmi": 76326,
+      "totalInterest": 43130.9,
+      "totalAmount": 915913,
+      "createdAt": "2025-11-18T07:03:05.040Z",
+      "userName": "suraj",
+      "userEmail": "suraj@farenexus.com",
+      "status": "closed"
+    },
+    {
+      "id": "0015",
+      "loanAmount": 5000,
+      "rateOfInterest": 6,
+      "loanTenure": "1 Years",
+      "monthlyEmi": 430,
+      "totalInterest": 163.99,
+      "totalAmount": 5164,
+      "createdAt": "2025-11-25T16:57:48.087Z",
+      "status": "active"
+    },
+    {
+      "id": "c799",
+      "loanAmount": 5000,
+      "rateOfInterest": 6,
+      "loanTenure": "3 Months",
+      "monthlyEmi": 1683,
+      "totalInterest": 50.08,
+      "totalAmount": 5050,
+      "createdAt": "2025-11-25T16:59:08.470Z",
+      "userName": "suraj",
+      "userEmail": "suraj@farenexus.com",
+      "status": "pending"
+    },
+    {
+      "id": "b371",
+      "loanAmount": 1500000,
+      "rateOfInterest": 8.25,
+      "loanTenure": "5 Years",
+      "monthlyEmi": 30594,
+      "totalInterest": 335662.65,
+      "totalAmount": 1835663,
+      "createdAt": "2025-12-13T10:25:03.158Z",
+      "userName": "suraj",
+      "userEmail": "suraj@farenexus.com"
+    }
+  ]
+}
