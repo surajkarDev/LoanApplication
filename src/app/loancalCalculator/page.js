@@ -22,6 +22,13 @@ export default function Home() {
 
   const loginInformation = useSelector((state) => state.user.loginInformation) || "";
 
+  const rateOfInterestInput = useCallback((e) => {
+    let value = Number(e.target.value);
+    if ( value < 6) setRateInterest(value);
+    else if (value > 36) setRateInterest(36);
+    else setRateInterest(value);
+  },[rateInterest])
+
   // ----------------- EMI CALCULATION (useCallback) -----------------
   const calculateMonthlyEMI = useCallback((amount, annualRate, tenure, mode) => {
     const n = mode === "years" ? tenure * 12 : tenure;
@@ -190,7 +197,7 @@ export default function Home() {
                       type="number"
                       className="border p-2 text-center"
                       value={rateInterest}
-                      onChange={(e) => setRateInterest(Number(e.target.value))}
+                      onChange={(e) => rateOfInterestInput(e)}
                       min="6"
                     /> %
                   </div>
